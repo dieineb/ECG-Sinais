@@ -5,7 +5,6 @@ Porto Alegre, Brasil <p>
 dieineb@ufcspa.edu.br <p>
 Informática Biomédica - UFCSPA Processamento de Sinais (INF0021)<p>
 
-TRABALHO PRÁTICO <P>
 a)Plotar o sinal no domínio do TEMPO; <p>
 Pré-processamento do sinal original (bruto):<P>
 A entrada bruta do sinal de ECG está sujeita a ruídos principalmente na entrada e saída do
