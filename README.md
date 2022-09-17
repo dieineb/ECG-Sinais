@@ -5,7 +5,7 @@ Porto Alegre, Brasil <p>
 dieineb@ufcspa.edu.br <p>
 Informática Biomédica - UFCSPA Processamento de Sinais (INF0021)<p>
 
-a)Sinal no domínio do TEMPO; <p>
+a)Sinal no domínio do TEMPO: <p>
 Pré-processamento do sinal original (bruto):<P>
 A entrada bruta do sinal de ECG está sujeita a ruídos principalmente na entrada e saída do
 sinal. Muitos artefatos podem inferir ruídos no sinal de ECG. As três fontes mais comuns são:
@@ -16,19 +16,19 @@ A remoção de ruído no sinal bruto de ECG foi realizada com corte das regiões
 apresentavam ruídos grosseiros no início (≅ 80s) e no final (≅ 780s) do sinal. Outras técnicas
 podem ser aplicadas na prática, como por exemplo uso de filtros da mediana.<P>
 
-b) Espectro de amplitude do sinal (com janelas de 3, 5 e 10 segundos);<P>
+b) Espectro de amplitude do sinal (com janelas de 3, 5 e 10 segundos):<P>
 Após, foi realizada a extração do espectro de amplitude de todo o sinal, já nessa etapa
 também foi obtido a maior amplitude (35908) na frequência (2.99Hz) encontrada no sinal.<P>
 
-c) Tipo de ruído presente no sinal;<P>
+c) Tipo de ruído presente no sinal:<P>
 Ruídos de alta frequência presentes no sinal. Os principais problemas no processamento de
 sinais biológicos, tais como o ECG, são a remoção de ruídos. Os ruídos podem ser gerados por
 instabilidade de energia (interferência de 60Hz), movimentação corporal, manipulação dos
 eletrodos na aplicação e remoção dos mesmos, entre outros. <P>
 
-d) filtrar o sinal com a transformada de Fourier removendo o ruído presente no sinal;<P>
-A próxima etapa é a extração de recursos. A técnica de transformada rápida de Fourier é
-efetivamente introduzida para extrair componentes de recursos, como sinais PQRST, do sinal
+d) Filtrar o sinal com a transformada de Fourier removendo o ruído:<P>
+A próxima etapa é a extração de características. A técnica de transformada rápida de Fourier é
+efetivamente introduzida para extrair componentes de características, como sinais PQRST, do sinal
 de ECG. Esta técnica irá decompor o sinal original do domínio do tempo para o domínio da
 frequência. Sinais de alta frequência e valores máximos de determinada frequência serão
 extraídos do domínio da frequência com base na técnica de thresholding. O sinal de ECG original, mesmo pré-processado,
@@ -36,7 +36,7 @@ pode conter bastante ruído,então é necessária uma técnica eficiente de filt
 podem comprometer a qualidade do sinal a ser avaliado.<P>
 
 Ampliação da sobreposição e identificação do Complexo QRS nas ondas 1 e 2– Janela de 2 segundos<P>
-O sinal foi ampliado, inicialmente em uma janela de cerca 1 segundo (entre 250 e 250.8 ), na
+O sinal foi ampliado, inicialmente em uma janela de cerca de 1 segundo (entre 250 e 250.8 ), na
 ampliação, foi evidenciado o complexo QRS <P>
 
 Após a verificação da melhor sobreposição da onda R, foi utilizada uma janela de 2
