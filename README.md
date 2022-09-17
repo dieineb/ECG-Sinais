@@ -5,7 +5,7 @@ Porto Alegre, Brasil <p>
 dieineb@ufcspa.edu.br <p>
 Informática Biomédica - UFCSPA Processamento de Sinais (INF0021)<p>
 
-a)Plotar o sinal no domínio do TEMPO; <p>
+a)Sinal no domínio do TEMPO; <p>
 Pré-processamento do sinal original (bruto):<P>
 A entrada bruta do sinal de ECG está sujeita a ruídos principalmente na entrada e saída do
 sinal. Muitos artefatos podem inferir ruídos no sinal de ECG. As três fontes mais comuns são:
@@ -16,17 +16,17 @@ A remoção de ruído no sinal bruto de ECG foi realizada com corte das regiões
 apresentavam ruídos grosseiros no início (≅ 80s) e no final (≅ 780s) do sinal. Outras técnicas
 podem ser aplicadas na prática, como por exemplo uso de filtros da mediana.<P>
 
-b) levantar o espectro de amplitude do sinal (com janelas de 3, 5 e 10 segundos);<P>
+b) Espectro de amplitude do sinal (com janelas de 3, 5 e 10 segundos);<P>
 Após, foi realizada a extração do espectro de amplitude de todo o sinal, já nessa etapa
 também foi obtido a maior amplitude (35908) na frequência (2.99Hz) encontrada no sinal.<P>
 
-c) verificar o tipo de ruído presente no sinal;<P>
+c) Tipo de ruído presente no sinal;<P>
 Ruídos de alta frequência presentes no sinal. Os principais problemas no processamento de
 sinais biológicos, tais como o ECG, são a remoção de ruídos. Os ruídos podem ser gerados por
 instabilidade de energia (interferência de 60Hz), movimentação corporal, manipulação dos
 eletrodos na aplicação e remoção dos mesmos, entre outros. <P>
 
-d) filtrar o sinal com a transformada de Fourier removendo o ruído detectado em c;<P>
+d) filtrar o sinal com a transformada de Fourier removendo o ruído presente no sinal;<P>
 A próxima etapa é a extração de recursos. A técnica de transformada rápida de Fourier é
 efetivamente introduzida para extrair componentes de recursos, como sinais PQRST, do sinal
 de ECG. Esta técnica irá decompor o sinal original do domínio do tempo para o domínio da
